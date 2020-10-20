@@ -1,0 +1,57 @@
+{
+    "name": "larsloq/slim4-skeleton",
+    "description": "Slim 4 skeleton with sentinel auth, monolog middleware and behat tests",
+    "keywords": [
+        "slim",
+        "slim framwork 4",
+        "behat",
+        "monolog",
+        "sentinel"
+    ],
+    "homepage": "https://github.com/larsloQ/slim4-skeleton-monolog-sentinel-behat",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "larslo",
+            "email": "me@larslo.de",
+            "homepage": "https://larslo.de"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/behat --config tests/behat/behat.yml",
+        "test-auth": "vendor/bin/behat --config tests/behat/behat.yml --tags auth"
+    },
+    "require": {
+        "php": "^7.3",
+        "monolog/monolog": "^2.1",
+        "slim/slim": "^4.5",
+        "slim/psr7": "^0.5.0",
+        "cartalyst/sentinel": "^5.0",
+        "illuminate/database": "^8.8",
+        "illuminate/events": "^8.8",
+        "php-di/slim-bridge": "^3.0",
+        "vlucas/phpdotenv": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/larsloQ/monolog-parser"
+        }
+    ],
+    "require-dev": {
+        "guzzlehttp/psr7": "^1.7",
+        "davedevelopment/phpmig": "^1.7",
+        "symfony/http-foundation": "^5.1",
+        "phpunit/phpunit": "^8",
+        "pulse00/monolog-parser" : "dev-monolog-2",
+        "behat/behat": "^3.7",
+        "guzzlehttp/guzzle": "^7.2"
+
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "menu": {
+        "de": {
+            "demo": "Die öffentliche Route '/texts' liefert dieses File"
+        },
+        "en": {
+            "demo": "return this file from a public-route '/texts' "
+        }
+    }
+}

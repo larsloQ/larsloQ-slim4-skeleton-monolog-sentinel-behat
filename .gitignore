@@ -1,0 +1,14 @@
+vendor
+log/http-error/*
+log/php-error/*
+log/usage/*
+tests/python/__pycache__
+tests/python/.pytest_cache
+tests/.pytest_cache
+tests/__pycache__
+docker-compose.yml
+config-local
+config-clean
+deploy
+tests/behat/behat-local.yml
+

@@ -1,0 +1,11 @@
+# when testing on a different system duplicate this file and adjust settings (baseUrl)
+# see composer.json
+# or *.features files for instructions
+default:
+    suites:
+        local:
+            contexts: 
+                 - FeatureContext:
+                    baseUrl : "http://larslo.larslo/github/slim4/public"
+    gherkin:
+        cache: ~
