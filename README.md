@@ -1,9 +1,5 @@
-#slim4-skeleton-monolog-sentinel-behat
 Slim-4 skeleton with some simple file-based CRUD operations, logging-middleware and behat tests.
 
-
-#Tags
-slim-framework, slim-4, behat, php7, sentinel-5
 
 ## Description
 Started as the part of a project, where it acts as backend allowing to make use of JSON-EDITOR (https://github.com/josdejong/jsoneditor)  in the browser: Select a json-file, edit it, save it and set it as "current" file used on a simple website.
