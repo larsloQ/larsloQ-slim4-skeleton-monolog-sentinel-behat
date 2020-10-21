@@ -63,7 +63,7 @@ $app->group('/backend', function (RouteCollectorProxy $group) use ($writePerMiss
      */
     $group->get('/files', function ($request, $response, $args) use ($repo_folder) {
         $fileList   = glob($repo_folder . '/*.json');
-        $cleanNames = array_map(function ($f) use ($dataFolder) {
+        $cleanNames = array_map(function ($f) use ($repo_folder) {
             $f = str_replace($repo_folder . "/", "", $f);
             return $f;
         }, $fileList);

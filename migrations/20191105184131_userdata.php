@@ -18,7 +18,7 @@ class UserData extends Migration
         $sentinel = (new Sentinel());
         // Register a new user
         $credentials = [
-            'email'    => 'me@larslo',
+            'email'    => 'me@larslo.de',
             'password' => 'APw-121309213#',
         ];
 
@@ -33,7 +33,7 @@ class UserData extends Migration
     {
         Capsule::statement('SET FOREIGN_KEY_CHECKS=0;');
         $credentials = [
-            'login' => 'me@larslo',
+            'login' => 'me@larslo.de',
         ];
 
         $user = Sentinel::findByCredentials($credentials);

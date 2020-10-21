@@ -11,4 +11,4 @@ config-local
 config-clean
 deploy
 tests/behat/behat-local.yml
-
+data/live/*

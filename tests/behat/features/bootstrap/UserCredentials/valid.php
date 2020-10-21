@@ -1,5 +1,5 @@
 <?php
 return [
-    'username'    => 'me@larslo',
+    'username'    => 'me@larslo.de',
     'password' => 'APw-121309213#',
 ];
